@@ -99,14 +99,14 @@ img:hover {
 /* styling for footer element */
 footer {
     padding: 2%; /* this gives the footer padding that is equal to 2% of the width of the elements area */
-    background-color: white;
+    background-color: #e6e6e6;
 }
 /* end of general styling */
 
 /* navbar styling */
 .Navbar {
     overflow: hidden; /* this ensures that any content that overflows beyond the boundary of out nav bar is not displayed */
-    background-color: black; /* this colors the navbar black */
+    background-color: #1a1a1a; /* this colors the navbar black */
     position: fixed; /* this keeps the navbar at the top of the screen as we scroll */
     top: 0; /* this ensures no space is disabled above the navbar */
     width: 100%; /* this makes the navbar span the entire width of the page */
@@ -399,7 +399,7 @@ button {
 /* hover effect for contact and submit buttons */
 button:hover, .form-container .btn:hover {
     color: white; /* this makes the text in the button white when hovered over */
-    background-color: black; /* the background of the button changes to black when hovered over*/
+    background-color: #1a1a1a; /* the background of the button changes to black when hovered over*/
     transition-duration: 1s; /* this makes the transition last 1 second */
     -webkit-transition-duration: 1s; /* for safari 4.0 - 8.0 */
     border-color: silver; /* the border turns silver when the button is hovered over */
